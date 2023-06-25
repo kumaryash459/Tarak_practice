@@ -1,1 +1,59 @@
-as usual he is faltu . I have rapes him then also he is in call. nafees is gandu.sorry
+import javax.naming.spi.DirStateFactory.Result;
+
+class sum 
+{
+    void display(int a , int b)
+    {
+        int result = a+b;
+        System.out.println("the adition of two integer: " + result);
+    }
+    void display(double a , double b)
+    {
+        double result = a + b;
+        System.out.println("two double : " + result);
+    }
+    void display(int a, int b , int c)
+    {
+        int result = a+b+c;
+        System.out.println("three integer : " + result);
+    }
+    
+    void display(int a , double b)
+    {
+        double result = a+b;
+        System.out.println("one d one i : " + result);
+    }
+}
+class pgmP{
+    public static void main(String[] args) {
+        sum s1 = new sum();
+        s1.display(3, 5);
+        s1.display(1.2, 2.5);
+        s1.display(2, 3, 4);
+        s1.display(2, 8.5);
+    }
+}*/
+
+//method override
+/*class honda
+{
+    void display()
+    {
+        System.out.println("started");
+    }
+}
+class bike extends honda{
+    void display()
+    {
+        System.out.println("stopped");
+    }
+}
+class yash
+{
+    public static void main(String[] args) {
+        honda h = new honda();
+        bike b = new bike();
+        b.display();
+        h.display();
+    }
+}
